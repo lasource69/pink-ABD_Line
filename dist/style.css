@@ -1,8 +1,9 @@
+
 body {
     margin: 0;
     height: 100vh;
     font-weight: 100;
-    background: radial-gradient(#a23982,#EDEDED);
+    background: radial-gradient(#EDEDED,#000000);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
@@ -15,12 +16,12 @@ body {
 
 .header {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  color: white;
+  color: #000000;
   font-size: 2em;
 }
 
@@ -31,14 +32,14 @@ body {
   transform: translate(-50%, -50%);
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  color: white;
+  color: #000000;
   font-size: 5em;
-  opacity: .75;
+  //opacity: .75;
   text-align: center;
 
 text-decoration: underline;
 text-underline-offset: 1px;
-text-decoration-color: pink;
+text-decoration-color: #EDEDED;
 //border-bottom: 1px solid pink;
 
 }
