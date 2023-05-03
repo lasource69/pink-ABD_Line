@@ -3,7 +3,7 @@ body {
     margin: 0;
     height: 100vh;
     font-weight: 100;
-    background: radial-gradient(#EDEDED,#000000);
+    background: radial-gradient(#EDEDED,#ffffff);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
@@ -34,7 +34,7 @@ body {
   font-weight: 200;
   color: #000000;
   font-size: 5em;
-  //opacity: .75;
+  //opacity: .95;
   text-align: center;
 
 text-decoration: underline;
@@ -48,9 +48,9 @@ text-decoration-color: #EDEDED;
 .light {
     position: absolute;
     width: 0px;
-    opacity: .75;
-    background-color: white;
-    box-shadow: #e9f1f1 0px 0px 20px 2px;
+    opacity: 1;
+    background-color:#FFFFFF;
+    box-shadow: #868686 0px 0px 20px 2px;
     opacity: 0;
     top: 100vh;
     bottom: 0px;
@@ -206,7 +206,7 @@ button:focus{
   transform: translate(-50%, -50%);
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  color: white;
+  color: #868686;
   font-size: 2em;
 }
 
